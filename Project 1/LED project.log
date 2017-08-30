@@ -1,0 +1,16 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo8 -N"G:\SITHUM' S    works\PIUMAL's pic prog\PIC IC\Project 1\LED project.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"G:\SITHUM' S    works\PIUMAL's pic prog\PIC IC\Project 1\" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"D:\PIC IC\Project 1\" -SP"D:\PIC IC\New Folder\" "LED project.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_Button.mcl" "__Lib_ADC_A_C.mcl" "__Lib_SPI_c345.mcl" "__Lib_CANSPI.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Program Files\Mikroelektronika\mikroC PRO for PIC\defs'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Program Files\Mikroelektronika\mikroC PRO for PIC\Uses\P16'	 
+warning: 0	1501	Specified search path does not exist: 'D:\PIC IC\Project 1'	 
+warning: 0	1501	Specified search path does not exist: 'D:\PIC IC\New Folder'	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	126	All files Preprocessed in 265 ms	 
+diagnostics: 0	122	Compilation Started	LED project.c
+diagnostics: 260	123	Compiled Successfully	LED project.c
+diagnostics: 0	127	All files Compiled in 328 ms	 
+hint: 0	1144	Used RAM (bytes): 3 (1%)  Free RAM (bytes): 349 (99%)	Used RAM (bytes): 3 (1%)  Free RAM (bytes): 349 (99%)
+hint: 0	1144	Used ROM (program words): 2010 (25%)  Free ROM (program words): 6182 (75%)	Used ROM (program words): 2010 (25%)  Free ROM (program words): 6182 (75%)
+diagnostics: 0	125	Project Linked Successfully	LED project.mcppi
+diagnostics: 0	128	Linked in 94 ms	 
+diagnostics: 0	129	Project 'LED project.mcppi' completed: 719 ms	 
+diagnostics: 0	103	Finished successfully: 30 Mar 2016, 05:02:57	LED project.mcppi
