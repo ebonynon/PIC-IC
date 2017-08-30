@@ -1,0 +1,53 @@
+#line 1 "D:/PIC IC/robot/MyProject.c"
+int i=0;
+void main() {
+TRISC = 0b11111111;
+PORTC = 0b00000000;
+TRISB = 0b00000000;
+PORTB = 0b00000000;
+
+PORTB = 0b11111111;
+Delay_ms(70);
+PORTB = 0b00000000;
+Delay_ms(70);
+ PORTB = 0b11111111;
+Delay_ms(70);
+PORTB = 0b00000000;
+Delay_ms(70);
+PORTB = 0b11111111;
+Delay_ms(70);
+PORTB = 0b00000000;
+Delay_ms(70);
+PORTB = 0b11111111;
+Delay_ms(70);
+PORTB = 0b00000000;
+Delay_ms(70);
+
+while(1){
+
+if(PORTC==0b00000001){
+PORTB = 0b00000001;
+ }
+if(PORTC==0b00000010){
+PORTB = 0b00000010;
+ }
+if(PORTC==0b00000100){
+PORTB = 0b00000100;
+ }
+if(PORTC==0b00001000){
+PORTB = 0b00001000;
+ }
+if(PORTC==0b00010000){
+PORTB = 0b00010000;
+ }
+if(PORTC==0b00100000){
+PORTB = 0b00100000;
+ }
+if(PORTC==0b01000000){
+PORTB = 0b01000000;
+ }
+if(PORTC==0b10000000){
+PORTB = 0b10000000;
+ }
+ }
+}
